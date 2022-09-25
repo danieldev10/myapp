@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "604798716007",
+    "project_id": "achonma-app",
+    "storage_bucket": "achonma-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604798716007:android:7c9baf47c206b99a936cc2",
+        "android_client_info": {
+          "package_name": "dev.achonma.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604798716007-36gghuv5551d9ibvgdg7n18u79rg0c4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZL9PERC0YcSKqFwBGjg1qa6jUB4w9BM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604798716007-36gghuv5551d9ibvgdg7n18u79rg0c4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

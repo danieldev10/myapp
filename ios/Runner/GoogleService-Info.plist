@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>604798716007-kssg8b9kgeh14q0p0qrkv8t6l6st6q0q.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.604798716007-kssg8b9kgeh14q0p0qrkv8t6l6st6q0q</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC01oX8GTsxkrGw3xrnV52U36jbXqk-kSM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>604798716007</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>dev.achonma.myapp</string>
+	<key>PROJECT_ID</key>
+	<string>achonma-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>achonma-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:604798716007:ios:562b850a49fb3e31936cc2</string>
+</dict>
+</plist>
