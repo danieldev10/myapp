@@ -40,9 +40,9 @@ class _VerifyEmailViewState extends State<VerifyEmailView> {
               TextButton(
                 onPressed: () async {
                   Navigator.of(context)
-                      .pushNamedAndRemoveUntil(registerRoute, (route) => false);
+                      .pushNamedAndRemoveUntil(loginRoute, (route) => false);
                 },
-                child: const Text('Restart'),
+                child: const Text('Log In'),
               ),
             ],
           ),

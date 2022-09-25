@@ -1,5 +1,3 @@
-import 'dart:js';
-
 import 'package:flutter/material.dart';
 import 'package:myapp/constants/routes.dart';
 import 'package:myapp/services/auth/auth_service.dart';
