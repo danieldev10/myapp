@@ -95,6 +95,11 @@ class _LoginViewState extends State<LoginView> {
                       context,
                       'Wrong Password',
                     );
+                  } on InvalidEmailAuthException {
+                    await showErrorDialog(
+                      context,
+                      'Invalid Email',
+                    );
                   } on GenericAuthException {
                     await showErrorDialog(
                       context,
@@ -108,8 +113,10 @@ class _LoginViewState extends State<LoginView> {
               ),
               TextButton(
                 onPressed: () {
-                  Navigator.of(context)
-                      .pushNamedAndRemoveUntil(registerRoute, (route) => false,);
+                  Navigator.of(context).pushNamedAndRemoveUntil(
+                    registerRoute,
+                    (route) => false,
+                  );
                 },
                 child: const Text('Don\'t have and account? Sign Up'),
               ),
