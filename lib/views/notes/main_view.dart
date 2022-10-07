@@ -34,8 +34,14 @@ class _MainViewState extends State<MainView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('WELCOME TO MY APP'),
+        title: const Text('YOUR NOTES'),
         actions: [
+          IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(NewNoteRoute);
+            },
+            icon: const Icon(Icons.add),
+          ),
           PopupMenuButton<MenuAction>(
             onSelected: (value) async {
               switch (value) {
